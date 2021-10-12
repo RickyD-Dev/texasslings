@@ -770,6 +770,7 @@ nav a:focus{
     .rental-requirements {
         height: auto;
         padding-top: 2em;
+        padding-bottom: 2em;
     }
 }
 
@@ -902,7 +903,7 @@ nav a:focus{
     .testimonials {
         height: auto;
         padding-top: 2em;
-        padding-bottom: 2em;
+        padding-bottom: 1em;
     }
 }
 
