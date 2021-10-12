@@ -816,13 +816,6 @@ nav a:focus{
 
 /*------- Requirements Section -------*/
 
-@media only screen and (max-height: 575.98px) and (orientation: landscape) {
-    .rental-requirements {
-        height: auto;
-        padding-top: 2em;
-    }
-}
-
 .rental-requirements {
     text-align: center;
     background-color: rgb(20, 20, 20);
@@ -832,6 +825,13 @@ nav a:focus{
     flex-direction: column;
     justify-content: center;
     align-items: center;
+}
+
+@media only screen and (orientation: landscape) {
+    .rental-requirements {
+        height: auto;
+        padding-top: 2em;
+    }
 }
 
 .rental-requirements p,
@@ -965,19 +965,19 @@ nav a:focus{
 
 /*------- Testimonials Section -------*/
 
-@media only screen and (max-height: 575.98px) and (orientation: landscape) {
-    .testimonials {
-        height: auto;
-        padding-top: 2em;
-    }
-}
-
 .testimonials {
     display: flex;
     flex-direction: column;
     justify-content: center;
     text-align: center;
     height: 100vh;
+}
+
+@media only screen and (orientation: landscape) {
+    .testimonials {
+        height: auto;
+        padding-top: 2em;
+    }
 }
 
 .active-reviews-container {
