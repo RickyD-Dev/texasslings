@@ -171,17 +171,16 @@ nav ul {
 }
 
 .site-nav {
-    background-color: rgb(252, 252, 252);
+    background-color: #000;
     position: absolute;
     display: flex;
     align-items: center;
-    justify-content: space-between;
+    justify-content: center;
     top: 100%;
-    right: 0%;
     height: 0px;
+    width: 100%;
     overflow: hidden;
     z-index: 999;
-    border-bottom-left-radius: 15px;
 }
 
 .site-nav--open {
@@ -194,13 +193,13 @@ nav ul {
 }
 
 .nav-item:hover {
-    color: #000;
+    color: rgba(255,255,255,0.4);
 }
 
 nav a {
     display: inline-block;
     padding: 0.8em 1.8em;
-    color: #000;
+    color: #fff;
     text-decoration: none;
 }
 
@@ -213,14 +212,10 @@ nav a:focus{
 }
 
 .nav-list li {
-    background-color: rgb(230, 230, 230);
+    background-color: #000;
     border: 2px solid rgba(0, 0, 0, 0.6);
     border-top: none;
-    border-right: none;
-}
-
-.nav-list li:last-child {
-    border-bottom-left-radius: 15px;
+    border-left: none;
 }
 
 /*------- Hamburger Menu -------*/
@@ -276,6 +271,8 @@ nav a:focus{
         float: right;
         margin-right: 45px;
         overflow: visible;
+        width: auto;
+        justify-content: space-between;
     }
 
     .site-nav li {
@@ -305,6 +302,7 @@ nav a:focus{
 
     .nav-item:hover {
         text-decoration: underline;
+        color: rgba(0, 0, 0, 0.5)
     }
 
     .header-container {
