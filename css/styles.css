@@ -1,4 +1,4 @@
-/* Font Families */
+/*------- Font Families -------*/
 /* font-family: 'Lato', sans-serif;
 font-family: 'Raleway', sans-serif; 
 font-family: 'Oswald', sans-serif; 
@@ -106,9 +106,7 @@ img {
     max-width: 100%;
 }
 
-/*------- Header -------*/
-
-/*------- Navigation -------*/
+/*------- Header & Navigation -------*/
 
 @media only screen and (min-width: 800px) {
     .header-container {
@@ -282,7 +280,6 @@ nav a:focus{
 
     .site-nav a {
         padding: 0 7px 0 7px;
-        /* margin-left: 1.5em; */
     }
 
     .nav-list li {
@@ -387,7 +384,6 @@ nav a:focus{
 
 .rent-button:hover {
     background-color: rgba(23, 168, 18, 0.3);
-    /* border: 2px solid rgba(0, 0, 0, 0.8); */
     color: #fff;
     transition: all 0.1s ease-in-out;
 }
@@ -446,15 +442,11 @@ nav a:focus{
 .midnight-slingshot {
     margin: 0px 1em 25px;
     border: 5px solid #000;
-    /* border-radius: 15px; */
     background-color: rgb(201, 201, 201);
 }
 
 .midnight-img {
-    /* background: url(images/image2.jpeg) center no-repeat;
-    background-size: 100%; */
     max-width: 100%;
-    /* height: 45vh; */
     border-top: 1px solid #000;
     border-bottom: 1px solid #000;
 }
@@ -499,12 +491,7 @@ nav a:focus{
         margin: 0px 1em 25px;
         max-width: 23em;
         border: 5px solid #000;
-        /* border-radius: 15px; */
         background-color: rgb(201, 201, 201);
-    }
-
-    .midnight-img {
-        
     }
 }
 
@@ -513,12 +500,7 @@ nav a:focus{
         margin: 0px 1em 25px;
         max-width: 28em;
         border: 5px solid #000;
-        /* border-radius: 15px; */
         background-color: rgb(201, 201, 201);
-    }
-
-    .midnight-img {
-        
     }
 }
 
@@ -527,7 +509,6 @@ nav a:focus{
         margin: 0px 1em 25px;
         max-width: 30%;
         border: 5px solid #000;
-        /* border-radius: 15px; */
         background-color: rgb(201, 201, 201);
     }
 
@@ -541,12 +522,7 @@ nav a:focus{
         margin: 0px 1em 25px;
         max-width: 28%;
         border: 5px solid #000;
-        /* border-radius: 15px; */
         background-color: rgb(201, 201, 201);
-    }
-
-    .midnight-img {
-        
     }
 }
 
@@ -555,7 +531,6 @@ nav a:focus{
 .blueSteel-slingshot {
     margin: 0px 1em 25px;
     border: 5px solid rgb(0, 0, 0);
-    /* border-radius: 15px; */
     background-color: rgb(201, 201, 201);
 }
 
@@ -605,12 +580,7 @@ nav a:focus{
         margin: 0px 1em 25px;
         max-width: 23em;
         border: 5px solid #000;
-        /* border-radius: 15px; */
         background-color: rgb(201, 201, 201);
-    }
-
-    .blueSteel-img {
-        
     }
 }
 
@@ -619,12 +589,7 @@ nav a:focus{
         margin: 0px 1em 25px;
         max-width: 28em;
         border: 5px solid #000;
-        /* border-radius: 15px; */
         background-color: rgb(201, 201, 201);
-    }
-
-    .blueSteel-img {
-        
     }
 }
 
@@ -633,7 +598,6 @@ nav a:focus{
         margin: 0px 1em 25px;
         max-width: 30%;
         border: 5px solid #000;
-        /* border-radius: 15px; */
         background-color: rgb(201, 201, 201);
     }
 
@@ -647,12 +611,7 @@ nav a:focus{
         margin: 0px 1em 25px;
         max-width: 28%;
         border: 5px solid #000;
-        /* border-radius: 15px; */
         background-color: rgb(201, 201, 201);
-    }
-
-    .blueSteel-img {
-        
     }
 }
 
@@ -661,7 +620,6 @@ nav a:focus{
 .gt-slingshot {
     margin: 0px 1em 25px;
     border: 5px solid #000;
-    /* border-radius: 15px; */
     background-color: rgb(201, 201, 201);
 }
 
@@ -712,12 +670,7 @@ nav a:focus{
         margin: 0px 1em 25px;
         max-width: 23em;
         border: 5px solid #000;
-        /* border-radius: 15px; */
         background-color: rgb(201, 201, 201);
-    }
-
-    .gt-img {
-        
     }
 }
 
@@ -726,12 +679,7 @@ nav a:focus{
         margin: 0px 1em 25px;
         max-width: 28em;
         border: 5px solid #000;
-        /* border-radius: 15px; */
         background-color: rgb(201, 201, 201);
-    }
-
-    .gt-img {
-        
     }
 }
 
@@ -740,7 +688,6 @@ nav a:focus{
         margin: 0px 1em 25px;
         max-width: 30%;
         border: 5px solid #000;
-        /* border-radius: 15px; */
         background-color: rgb(201, 201, 201);
     }
 
@@ -754,12 +701,7 @@ nav a:focus{
         margin: 0px 1em 25px;
         max-width: 28%;
         border: 5px solid #000;
-        /* border-radius: 15px; */
         background-color: rgb(201, 201, 201);
-    }
-
-    .gt-img {
-        
     }
 }
 
@@ -865,10 +807,6 @@ nav a:focus{
 }
 
 .requirement-list {
-    /* display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center; */
     padding-bottom: 3em;
     width: 20em;
 }
@@ -914,24 +852,14 @@ nav a:focus{
     flex-direction: column;
 }
 
-/* .span-container {
-    display: none;
-}
-
-.span-container__open {
-    display: contents;
-} */
-
 .more-info {
     display: none;
 }
 
 .more-info__open {
     display: block;
-    /* position: relative; */
     width: 215px;
     font-size: 12px;
-    /* bottom: 70px; */
     border: 1px solid;
     padding: 5px;
     margin: 0 auto;
@@ -980,7 +908,6 @@ nav a:focus{
 
 .active-reviews-container {
     padding-bottom: 3em;
-    /* height: 86vh; */
 }
 
 /*------------ Review Posts Styles ------------*/
@@ -1211,7 +1138,6 @@ nav a:focus{
 
 .faq-rent-button:hover {
     background-color: rgba(23, 168, 18, 0.3);
-    /* border: 2px solid rgba(0, 0, 0, 0.8); */
     color: #fff;
     transition: all 0.1s ease-in-out;
 }
@@ -1242,16 +1168,6 @@ nav a:focus{
         background-color: #fff;
         align-items: center;
     }
-
-    /* .title-container {
-        display: block;
-        padding-top: 2em;
-        padding-bottom: 15px;
-        width: 15rem;
-        margin-left: 3em;
-        text-align: center;
-        align-self: flex-start;
-    } */
 
     .sling-desc-button-container {
         display: flex;
